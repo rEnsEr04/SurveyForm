@@ -5,8 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    
+    <header>
+        <h1 id="title">Some tittle</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <form id="survey-form" action="">
+        <fieldset>
+            <label id="name-label" for="">Name <input type="text" id="name" placeholder="Enter your name" required></label>
+            <label id="email-label" for="">Email <input type="email" id="email" placeholder="Enter your email" required></label>
+            <label id="number-label" for="">Age <input type="number" id="age" min="13" max="120" placeholder="Enter your age" required></label>
+        </fieldset>
+        
+        <fieldset>
+            <p>Select</p>
+            <label for="">
+                <select name="" id="dropdown">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <p>Some text</p>
+            <label for=""><input type="radio" name="w" checked>RadioBox</label>
+            <label for=""><input type="radio" name="w">RadioBox</label>
+            <label for=""><input type="radio" name="w">RadioBox</label>
+        </fieldset>
+        <fieldset>
+            <p>Some text</p>
+            <label for=""><input type="checkbox" value="">Hello</label>
+            <label for=""><input type="checkbox" value="">Hello</label>
+            <label for=""><input type="checkbox" value="">Hello</label>
+            <label for=""><input type="checkbox" value="">Hello</label> 
+        </fieldset>
+        <fieldset>
+            <p>Some text</p>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+        
+    </form>
 </body>
 </html>
